@@ -684,3 +684,56 @@ java.lang.Error: Unresolved compilation problem:
 2024-05-10T11:08:43.275+05:30  INFO 20332 --- [ElectronicStore] [RMI TCP Connection(77)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-10T11:08:43.276+05:30  INFO 20332 --- [ElectronicStore] [RMI TCP Connection(77)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 2024-05-10T11:08:43.279+05:30  INFO 20332 --- [ElectronicStore] [RMI TCP Connection(77)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-01-28T01:04:40.861+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] c.e.E.ElectronicStoreApplication         : Starting ElectronicStoreApplication using Java 17.0.8.1 with PID 28552 (D:\Projects\Spring\VintageRead\target\classes started by Abhishek in D:\Projects\Spring\VintageRead)
+2025-01-28T01:04:40.863+05:30 DEBUG 28552 --- [ElectronicStore] [restartedMain] c.e.E.ElectronicStoreApplication         : Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-01-28T01:04:40.863+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] c.e.E.ElectronicStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T01:04:40.907+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T01:04:40.907+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-28T01:04:41.487+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28T01:04:41.543+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2025-01-28T01:04:42.013+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-28T01:04:42.023+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-28T01:04:42.023+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-28T01:04:42.070+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-28T01:04:42.070+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1162 ms
+2025-01-28T01:04:42.191+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28T01:04:42.255+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-28T01:04:42.287+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-28T01:04:42.490+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28T01:04:42.517+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-28T01:04:42.846+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5864d9db
+2025-01-28T01:04:42.848+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-28T01:04:42.912+05:30  WARN 28552 --- [ElectronicStore] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-28T01:04:42.913+05:30  WARN 28552 --- [ElectronicStore] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-28T01:04:43.790+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28T01:04:43.878+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28T01:04:44.233+05:30  WARN 28552 --- [ElectronicStore] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28T01:04:44.448+05:30  WARN 28552 --- [ElectronicStore] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-01-28T01:04:44.528+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T01:04:44.560+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-01-28T01:04:44.569+05:30  INFO 28552 --- [ElectronicStore] [restartedMain] c.e.E.ElectronicStoreApplication         : Started ElectronicStoreApplication in 4.075 seconds (process running for 4.816)
+2025-01-28T01:04:48.935+05:30  INFO 28552 --- [ElectronicStore] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-01-28T01:04:48.951+05:30  INFO 28552 --- [ElectronicStore] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28T01:04:48.953+05:30  INFO 28552 --- [ElectronicStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-28T01:04:48.959+05:30  INFO 28552 --- [ElectronicStore] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-28T01:20:44.879+05:30  INFO 24740 --- [ElectronicStore] [main] c.e.E.ElectronicStoreApplicationTests    : Starting ElectronicStoreApplicationTests using Java 17.0.8.1 with PID 24740 (started by Abhishek in D:\Projects\Spring\VintageRead)
+2025-01-28T01:20:44.880+05:30 DEBUG 24740 --- [ElectronicStore] [main] c.e.E.ElectronicStoreApplicationTests    : Running with Spring Boot v3.2.4, Spring v6.1.5
+2025-01-28T01:20:44.881+05:30  INFO 24740 --- [ElectronicStore] [main] c.e.E.ElectronicStoreApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T01:20:45.791+05:30  INFO 24740 --- [ElectronicStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-28T01:20:45.880+05:30  INFO 24740 --- [ElectronicStore] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2025-01-28T01:20:46.340+05:30  INFO 24740 --- [ElectronicStore] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-28T01:20:46.408+05:30  INFO 24740 --- [ElectronicStore] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-01-28T01:20:46.452+05:30  INFO 24740 --- [ElectronicStore] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-28T01:20:46.788+05:30  INFO 24740 --- [ElectronicStore] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-28T01:20:46.817+05:30  INFO 24740 --- [ElectronicStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-28T01:20:47.126+05:30  INFO 24740 --- [ElectronicStore] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269308cc
+2025-01-28T01:20:47.129+05:30  INFO 24740 --- [ElectronicStore] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-28T01:20:47.170+05:30  WARN 24740 --- [ElectronicStore] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-28T01:20:47.172+05:30  WARN 24740 --- [ElectronicStore] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-28T01:20:48.130+05:30  INFO 24740 --- [ElectronicStore] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-28T01:20:48.194+05:30  INFO 24740 --- [ElectronicStore] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28T01:20:48.781+05:30  WARN 24740 --- [ElectronicStore] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-28T01:20:49.167+05:30  INFO 24740 --- [ElectronicStore] [main] c.e.E.ElectronicStoreApplicationTests    : Started ElectronicStoreApplicationTests in 4.597 seconds (process running for 5.829)
+2025-01-28T01:20:49.844+05:30  INFO 24740 --- [ElectronicStore] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-28T01:20:49.846+05:30  INFO 24740 --- [ElectronicStore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-28T01:20:49.855+05:30  INFO 24740 --- [ElectronicStore] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
